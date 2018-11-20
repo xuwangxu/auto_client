@@ -19,7 +19,7 @@ class Basic(BasePlugin):
         获取系统版本
         :return:
         """
-        output = handler.cmd('cat /etc/issue',hostname)
+        output = handler.cmd('cat /etc/redhat-release',hostname)
         result = output.strip().split('\n')[0]
         return result
 
