@@ -35,7 +35,7 @@ PLUGIN_DICT = {
 
 DEBUG = True
 
-ASSET_API = "http://127.0.0.1:8000/api/asset/"
+ASSET_API = "http://192.168.56.11:8000/api/asset/"
 
 
 
